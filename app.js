@@ -20,6 +20,7 @@ const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes')
 const viewRouter = require('./routes/viewRoutes');
 
+//for setting express
 const app = express();
 
 app.set('view engine', 'pug');//setting up pug for express
